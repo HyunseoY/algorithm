@@ -3,10 +3,7 @@ function solution(strlist) {
         
     for (let i = 0; i < strlist.length; i++) {
         answer[i] = strlist[i].length;
-        answer.push(answer[i]);
     }
-    
-    answer.pop();
     
     return answer;
 }
